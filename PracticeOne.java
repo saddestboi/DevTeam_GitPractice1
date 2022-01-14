@@ -14,7 +14,15 @@ public class PracticeOne {
 
     // M1: write a method on the occurences of the number 3 in the array
     // (and call it in the main method)
-
+    public static int num3(int[] arr){
+        int num = 0;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] == 3){
+                num++;
+            }
+        }
+        return num;
+    }
     // M2: write a method that removes the last element of an array
     // (and call it in the main method)
 
